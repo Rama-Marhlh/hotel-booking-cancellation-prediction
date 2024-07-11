@@ -32,10 +32,8 @@ This project focuses on predicting hotel booking cancellations using machine lea
 **Repository Structure**:
 - **app.py**: Flask application for prediction endpoint and web interface.
 - **templates/index.html**: HTML template for the web interface.
-- **static/**: Directory for static files (e.g., CSS stylesheets, images).
 - **data/**: Directory containing the dataset used for training and testing.
 - **models/**: Directory to store trained machine learning models (if applicable).
-- **requirements.txt**: List of Python dependencies for easy installation.
 
 
 ---
