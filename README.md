@@ -10,16 +10,17 @@ This project focuses on predicting hotel booking cancellations using machine lea
 
 **Key Features**:
 1. **Dataset**: The dataset comprises various features such as lead time, average price, special requests, booking dates, and customer demographics.
+   Kaggle : https://www.kaggle.com/datasets/youssefaboelwafa/hotel-booking-cancellation-prediction
    
-2. **Preprocessing**: Data preprocessing involved handling missing values, feature engineering, and encoding categorical variables using one-hot encoding.
+3. **Preprocessing**: Data preprocessing involved handling missing values, feature engineering, and encoding categorical variables using one-hot encoding.
 
-3. **Model Training**: Used PyCaret, a low-code machine learning library in Python, to train multiple classification models such as Random Forest, XGBoost, and Extra Trees. Model performance was evaluated using cross-validation.
+4. **Model Training**: Used PyCaret, a low-code machine learning library in Python, to train multiple classification models such as Random Forest, XGBoost, and Extra Trees. Model performance was evaluated using cross-validation.
 
-4. **Feature Selection**: Employed feature importance techniques to select relevant features for model training, optimizing prediction accuracy.
+5. **Feature Selection**: Employed feature importance techniques to select relevant features for model training, optimizing prediction accuracy.
 
-5. **Model Blending**: Utilized model blending via PyCaret's `blend_models` function to combine predictions from multiple models (Random Forest, XGBoost, and Extra Trees) to enhance predictive performance.
+6. **Model Blending**: Utilized model blending via PyCaret's `blend_models` function to combine predictions from multiple models (Random Forest, XGBoost, and Extra Trees) to enhance predictive performance.
 
-6. **Deployment**: Developed a Flask web application for deploying the final blended model. The application allows users to input booking details and receive real-time predictions on whether a booking is likely to be canceled.
+7. **Deployment**: Developed a Flask web application for deploying the final blended model. The application allows users to input booking details and receive real-time predictions on whether a booking is likely to be canceled.
 
 **Technologies Used**:
 - Python
@@ -38,3 +39,8 @@ This project focuses on predicting hotel booking cancellations using machine lea
 
 
 ---
+![image](https://github.com/Rama-Marhlh/hotel-booking-cancellation-prediction/assets/90220172/b2c624cd-063f-493a-b1be-5f9b401becc2)
+
+
+
+![image](https://github.com/Rama-Marhlh/hotel-booking-cancellation-prediction/assets/90220172/52f9a524-8a6f-427d-94f6-70811dcf0028)
